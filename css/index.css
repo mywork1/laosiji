@@ -1,0 +1,61 @@
+/*类型选择符*/
+/*h3{
+	color: red;
+	font-size: 30px;
+}*/
+h1{
+	color: black;
+}
+/*类选择器*/
+.span1{
+	color: blue;
+}
+/*id选择器*/
+#aa{
+	color: black;
+}
+/*通配符*/
+*{
+	font-family: "仿宋";
+}
+/*集合选择器*/
+.pp,h3{
+	color: blue;
+}
+#box{
+	width: 300px;
+	height: 150px;
+	background: pink;
+	margin: 0 auto;
+}
+/*后代选择器*/
+#box a{
+	color: red;
+}
+/*子选择器*/
+#box>a{
+	color: black;
+}
+/*伪类选择器*/
+/*初始状态*/
+/*.a1:link{
+	color: black;
+}*/
+/*超链接被访问后的状态*/
+/*.a1:visited{
+	color: black;
+}*/
+/*鼠标移动到标签时的状态*/
+/*.a1:hover{
+	color: gold;
+}*/
+/*鼠标按下未释放时的状态*/
+/*.a1:active{
+	color: black;
+}*/
+.a1{
+	color: black;
+}
+.a1:hover{
+	color: gold;
+}
